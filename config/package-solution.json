@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-sharepointlists-client-side-solution",
+    "id": "b1d899a5-237e-4a66-b2b1-50fbd321e4a9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-sharepointlists.sppkg"
+  }
+}

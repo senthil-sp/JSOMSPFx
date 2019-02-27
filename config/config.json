@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sahre-point-lists-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sahrePointLists/SahrePointListsWebPart.js",
+          "manifest": "./src/webparts/sahrePointLists/SahrePointListsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SahrePointListsWebPartStrings": "lib/webparts/sahrePointLists/loc/{locale}.js"
+  }
+}
